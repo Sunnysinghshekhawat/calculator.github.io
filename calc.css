@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2;
+    cursor: pointer;
+    background: #61608b;
+    border: none;
+    color: white;
+}
+.textview{
+    width: 207px;
+    height: 40px;
+    margin: 5;
+    font-size: 32px;
+    padding: 5;
+    background-color: lightgreen;
+    color: black;
+
+}
+.main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%)
+    translateY(-50%);
+}
+
+body,html{
+    background: linear-gradient(to right,#4026d3,#282a35);
+    height: 100%;
+}
+.button1{
+    width: 104px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2;
+    cursor: pointer;
+    background: #61608b;
+    border: none;
+    color: white;
+}
+.button2{
+    width: 50px;
+    height: 104px;
+    font-size: 25px;
+    margin: 2;
+    cursor: pointer;
+    background: #61608b;
+    border: none;
+    color: white;
+}
